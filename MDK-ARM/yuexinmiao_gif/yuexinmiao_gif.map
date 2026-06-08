@@ -1078,120 +1078,120 @@ Image Symbol Table
     i.__scatterload_copy                     0x0800386e   Section       14  handlers.o(i.__scatterload_copy)
     i.__scatterload_null                     0x0800387c   Section        2  handlers.o(i.__scatterload_null)
     i.__scatterload_zeroinit                 0x0800387e   Section       14  handlers.o(i.__scatterload_zeroinit)
-    frame_10_palette                         0x0800389c   Data          32  gif_animation.o(.rodata.frame_10_palette)
+    frame_10_palette                         0x0800389c   Data          16  gif_animation.o(.rodata.frame_10_palette)
     [Anonymous Symbol]                       0x0800389c   Section        0  gif_animation.o(.rodata.frame_10_palette)
-    frame_10_rle                             0x080038bc   Data        3644  gif_animation.o(.rodata.frame_10_rle)
-    [Anonymous Symbol]                       0x080038bc   Section        0  gif_animation.o(.rodata.frame_10_rle)
-    frame_11_palette                         0x080046f8   Data          32  gif_animation.o(.rodata.frame_11_palette)
-    [Anonymous Symbol]                       0x080046f8   Section        0  gif_animation.o(.rodata.frame_11_palette)
-    frame_11_rle                             0x08004718   Data        3984  gif_animation.o(.rodata.frame_11_rle)
-    [Anonymous Symbol]                       0x08004718   Section        0  gif_animation.o(.rodata.frame_11_rle)
-    frame_12_palette                         0x080056a8   Data          32  gif_animation.o(.rodata.frame_12_palette)
-    [Anonymous Symbol]                       0x080056a8   Section        0  gif_animation.o(.rodata.frame_12_palette)
-    frame_12_rle                             0x080056c8   Data        3814  gif_animation.o(.rodata.frame_12_rle)
-    [Anonymous Symbol]                       0x080056c8   Section        0  gif_animation.o(.rodata.frame_12_rle)
-    frame_13_palette                         0x080065ae   Data          32  gif_animation.o(.rodata.frame_13_palette)
-    [Anonymous Symbol]                       0x080065ae   Section        0  gif_animation.o(.rodata.frame_13_palette)
-    frame_13_rle                             0x080065ce   Data        4462  gif_animation.o(.rodata.frame_13_rle)
-    [Anonymous Symbol]                       0x080065ce   Section        0  gif_animation.o(.rodata.frame_13_rle)
-    frame_14_palette                         0x0800773c   Data          32  gif_animation.o(.rodata.frame_14_palette)
-    [Anonymous Symbol]                       0x0800773c   Section        0  gif_animation.o(.rodata.frame_14_palette)
-    frame_14_rle                             0x0800775c   Data        3970  gif_animation.o(.rodata.frame_14_rle)
-    [Anonymous Symbol]                       0x0800775c   Section        0  gif_animation.o(.rodata.frame_14_rle)
-    frame_15_palette                         0x080086de   Data          32  gif_animation.o(.rodata.frame_15_palette)
-    [Anonymous Symbol]                       0x080086de   Section        0  gif_animation.o(.rodata.frame_15_palette)
-    frame_15_rle                             0x080086fe   Data        3888  gif_animation.o(.rodata.frame_15_rle)
-    [Anonymous Symbol]                       0x080086fe   Section        0  gif_animation.o(.rodata.frame_15_rle)
-    frame_16_palette                         0x0800962e   Data          32  gif_animation.o(.rodata.frame_16_palette)
-    [Anonymous Symbol]                       0x0800962e   Section        0  gif_animation.o(.rodata.frame_16_palette)
-    frame_16_rle                             0x0800964e   Data        3826  gif_animation.o(.rodata.frame_16_rle)
-    [Anonymous Symbol]                       0x0800964e   Section        0  gif_animation.o(.rodata.frame_16_rle)
-    frame_17_palette                         0x0800a540   Data          32  gif_animation.o(.rodata.frame_17_palette)
-    [Anonymous Symbol]                       0x0800a540   Section        0  gif_animation.o(.rodata.frame_17_palette)
-    frame_17_rle                             0x0800a560   Data        3874  gif_animation.o(.rodata.frame_17_rle)
-    [Anonymous Symbol]                       0x0800a560   Section        0  gif_animation.o(.rodata.frame_17_rle)
-    frame_18_palette                         0x0800b482   Data          32  gif_animation.o(.rodata.frame_18_palette)
-    [Anonymous Symbol]                       0x0800b482   Section        0  gif_animation.o(.rodata.frame_18_palette)
-    frame_18_rle                             0x0800b4a2   Data        3858  gif_animation.o(.rodata.frame_18_rle)
-    [Anonymous Symbol]                       0x0800b4a2   Section        0  gif_animation.o(.rodata.frame_18_rle)
-    frame_19_palette                         0x0800c3b4   Data          32  gif_animation.o(.rodata.frame_19_palette)
-    [Anonymous Symbol]                       0x0800c3b4   Section        0  gif_animation.o(.rodata.frame_19_palette)
-    frame_19_rle                             0x0800c3d4   Data        4184  gif_animation.o(.rodata.frame_19_rle)
-    [Anonymous Symbol]                       0x0800c3d4   Section        0  gif_animation.o(.rodata.frame_19_rle)
-    frame_1_palette                          0x0800d42c   Data          32  gif_animation.o(.rodata.frame_1_palette)
-    [Anonymous Symbol]                       0x0800d42c   Section        0  gif_animation.o(.rodata.frame_1_palette)
-    frame_1_rle                              0x0800d44c   Data        4010  gif_animation.o(.rodata.frame_1_rle)
-    [Anonymous Symbol]                       0x0800d44c   Section        0  gif_animation.o(.rodata.frame_1_rle)
-    frame_20_palette                         0x0800e3f6   Data          32  gif_animation.o(.rodata.frame_20_palette)
-    [Anonymous Symbol]                       0x0800e3f6   Section        0  gif_animation.o(.rodata.frame_20_palette)
-    frame_20_rle                             0x0800e416   Data        3754  gif_animation.o(.rodata.frame_20_rle)
-    [Anonymous Symbol]                       0x0800e416   Section        0  gif_animation.o(.rodata.frame_20_rle)
-    frame_21_palette                         0x0800f2c0   Data          32  gif_animation.o(.rodata.frame_21_palette)
-    [Anonymous Symbol]                       0x0800f2c0   Section        0  gif_animation.o(.rodata.frame_21_palette)
-    frame_21_rle                             0x0800f2e0   Data        3800  gif_animation.o(.rodata.frame_21_rle)
-    [Anonymous Symbol]                       0x0800f2e0   Section        0  gif_animation.o(.rodata.frame_21_rle)
-    frame_22_palette                         0x080101b8   Data          32  gif_animation.o(.rodata.frame_22_palette)
-    [Anonymous Symbol]                       0x080101b8   Section        0  gif_animation.o(.rodata.frame_22_palette)
-    frame_22_rle                             0x080101d8   Data        4180  gif_animation.o(.rodata.frame_22_rle)
-    [Anonymous Symbol]                       0x080101d8   Section        0  gif_animation.o(.rodata.frame_22_rle)
-    frame_23_palette                         0x0801122c   Data          32  gif_animation.o(.rodata.frame_23_palette)
-    [Anonymous Symbol]                       0x0801122c   Section        0  gif_animation.o(.rodata.frame_23_palette)
-    frame_23_rle                             0x0801124c   Data        3890  gif_animation.o(.rodata.frame_23_rle)
-    [Anonymous Symbol]                       0x0801124c   Section        0  gif_animation.o(.rodata.frame_23_rle)
-    frame_24_palette                         0x0801217e   Data          32  gif_animation.o(.rodata.frame_24_palette)
-    [Anonymous Symbol]                       0x0801217e   Section        0  gif_animation.o(.rodata.frame_24_palette)
-    frame_24_rle                             0x0801219e   Data        3860  gif_animation.o(.rodata.frame_24_rle)
-    [Anonymous Symbol]                       0x0801219e   Section        0  gif_animation.o(.rodata.frame_24_rle)
-    frame_25_palette                         0x080130b2   Data          32  gif_animation.o(.rodata.frame_25_palette)
-    [Anonymous Symbol]                       0x080130b2   Section        0  gif_animation.o(.rodata.frame_25_palette)
-    frame_25_rle                             0x080130d2   Data        3932  gif_animation.o(.rodata.frame_25_rle)
-    [Anonymous Symbol]                       0x080130d2   Section        0  gif_animation.o(.rodata.frame_25_rle)
-    frame_26_palette                         0x0801402e   Data          32  gif_animation.o(.rodata.frame_26_palette)
-    [Anonymous Symbol]                       0x0801402e   Section        0  gif_animation.o(.rodata.frame_26_palette)
-    frame_26_rle                             0x0801404e   Data        3744  gif_animation.o(.rodata.frame_26_rle)
-    [Anonymous Symbol]                       0x0801404e   Section        0  gif_animation.o(.rodata.frame_26_rle)
-    frame_27_palette                         0x08014eee   Data          32  gif_animation.o(.rodata.frame_27_palette)
-    [Anonymous Symbol]                       0x08014eee   Section        0  gif_animation.o(.rodata.frame_27_palette)
-    frame_27_rle                             0x08014f0e   Data        3858  gif_animation.o(.rodata.frame_27_rle)
-    [Anonymous Symbol]                       0x08014f0e   Section        0  gif_animation.o(.rodata.frame_27_rle)
-    frame_28_palette                         0x08015e20   Data          32  gif_animation.o(.rodata.frame_28_palette)
-    [Anonymous Symbol]                       0x08015e20   Section        0  gif_animation.o(.rodata.frame_28_palette)
-    frame_28_rle                             0x08015e40   Data        3878  gif_animation.o(.rodata.frame_28_rle)
-    [Anonymous Symbol]                       0x08015e40   Section        0  gif_animation.o(.rodata.frame_28_rle)
-    frame_2_palette                          0x08016d66   Data          32  gif_animation.o(.rodata.frame_2_palette)
-    [Anonymous Symbol]                       0x08016d66   Section        0  gif_animation.o(.rodata.frame_2_palette)
-    frame_2_rle                              0x08016d86   Data        3924  gif_animation.o(.rodata.frame_2_rle)
-    [Anonymous Symbol]                       0x08016d86   Section        0  gif_animation.o(.rodata.frame_2_rle)
-    frame_3_palette                          0x08017cda   Data          32  gif_animation.o(.rodata.frame_3_palette)
-    [Anonymous Symbol]                       0x08017cda   Section        0  gif_animation.o(.rodata.frame_3_palette)
-    frame_3_rle                              0x08017cfa   Data        3982  gif_animation.o(.rodata.frame_3_rle)
-    [Anonymous Symbol]                       0x08017cfa   Section        0  gif_animation.o(.rodata.frame_3_rle)
-    frame_4_palette                          0x08018c88   Data          32  gif_animation.o(.rodata.frame_4_palette)
-    [Anonymous Symbol]                       0x08018c88   Section        0  gif_animation.o(.rodata.frame_4_palette)
-    frame_4_rle                              0x08018ca8   Data        4334  gif_animation.o(.rodata.frame_4_rle)
-    [Anonymous Symbol]                       0x08018ca8   Section        0  gif_animation.o(.rodata.frame_4_rle)
-    frame_5_palette                          0x08019d96   Data          32  gif_animation.o(.rodata.frame_5_palette)
-    [Anonymous Symbol]                       0x08019d96   Section        0  gif_animation.o(.rodata.frame_5_palette)
-    frame_5_rle                              0x08019db6   Data        3962  gif_animation.o(.rodata.frame_5_rle)
-    [Anonymous Symbol]                       0x08019db6   Section        0  gif_animation.o(.rodata.frame_5_rle)
-    frame_6_palette                          0x0801ad30   Data          32  gif_animation.o(.rodata.frame_6_palette)
-    [Anonymous Symbol]                       0x0801ad30   Section        0  gif_animation.o(.rodata.frame_6_palette)
-    frame_6_rle                              0x0801ad50   Data        3910  gif_animation.o(.rodata.frame_6_rle)
-    [Anonymous Symbol]                       0x0801ad50   Section        0  gif_animation.o(.rodata.frame_6_rle)
-    frame_7_palette                          0x0801bc96   Data          32  gif_animation.o(.rodata.frame_7_palette)
-    [Anonymous Symbol]                       0x0801bc96   Section        0  gif_animation.o(.rodata.frame_7_palette)
-    frame_7_rle                              0x0801bcb6   Data        4284  gif_animation.o(.rodata.frame_7_rle)
-    [Anonymous Symbol]                       0x0801bcb6   Section        0  gif_animation.o(.rodata.frame_7_rle)
-    frame_8_palette                          0x0801cd72   Data          32  gif_animation.o(.rodata.frame_8_palette)
-    [Anonymous Symbol]                       0x0801cd72   Section        0  gif_animation.o(.rodata.frame_8_palette)
-    frame_8_rle                              0x0801cd92   Data        3792  gif_animation.o(.rodata.frame_8_rle)
-    [Anonymous Symbol]                       0x0801cd92   Section        0  gif_animation.o(.rodata.frame_8_rle)
-    frame_9_palette                          0x0801dc62   Data          32  gif_animation.o(.rodata.frame_9_palette)
-    [Anonymous Symbol]                       0x0801dc62   Section        0  gif_animation.o(.rodata.frame_9_palette)
-    frame_9_rle                              0x0801dc82   Data        3812  gif_animation.o(.rodata.frame_9_rle)
-    [Anonymous Symbol]                       0x0801dc82   Section        0  gif_animation.o(.rodata.frame_9_rle)
-    gifFrames                                0x0801eb68   Data         448  gif_animation.o(.rodata.gifFrames)
-    [Anonymous Symbol]                       0x0801eb68   Section        0  gif_animation.o(.rodata.gifFrames)
+    frame_10_rle                             0x080038ac   Data        3696  gif_animation.o(.rodata.frame_10_rle)
+    [Anonymous Symbol]                       0x080038ac   Section        0  gif_animation.o(.rodata.frame_10_rle)
+    frame_11_palette                         0x0800471c   Data          16  gif_animation.o(.rodata.frame_11_palette)
+    [Anonymous Symbol]                       0x0800471c   Section        0  gif_animation.o(.rodata.frame_11_palette)
+    frame_11_rle                             0x0800472c   Data        3744  gif_animation.o(.rodata.frame_11_rle)
+    [Anonymous Symbol]                       0x0800472c   Section        0  gif_animation.o(.rodata.frame_11_rle)
+    frame_12_palette                         0x080055cc   Data          16  gif_animation.o(.rodata.frame_12_palette)
+    [Anonymous Symbol]                       0x080055cc   Section        0  gif_animation.o(.rodata.frame_12_palette)
+    frame_12_rle                             0x080055dc   Data        3816  gif_animation.o(.rodata.frame_12_rle)
+    [Anonymous Symbol]                       0x080055dc   Section        0  gif_animation.o(.rodata.frame_12_rle)
+    frame_13_palette                         0x080064c4   Data          16  gif_animation.o(.rodata.frame_13_palette)
+    [Anonymous Symbol]                       0x080064c4   Section        0  gif_animation.o(.rodata.frame_13_palette)
+    frame_13_rle                             0x080064d4   Data        3852  gif_animation.o(.rodata.frame_13_rle)
+    [Anonymous Symbol]                       0x080064d4   Section        0  gif_animation.o(.rodata.frame_13_rle)
+    frame_14_palette                         0x080073e0   Data          16  gif_animation.o(.rodata.frame_14_palette)
+    [Anonymous Symbol]                       0x080073e0   Section        0  gif_animation.o(.rodata.frame_14_palette)
+    frame_14_rle                             0x080073f0   Data        3758  gif_animation.o(.rodata.frame_14_rle)
+    [Anonymous Symbol]                       0x080073f0   Section        0  gif_animation.o(.rodata.frame_14_rle)
+    frame_15_palette                         0x0800829e   Data          16  gif_animation.o(.rodata.frame_15_palette)
+    [Anonymous Symbol]                       0x0800829e   Section        0  gif_animation.o(.rodata.frame_15_palette)
+    frame_15_rle                             0x080082ae   Data        3784  gif_animation.o(.rodata.frame_15_rle)
+    [Anonymous Symbol]                       0x080082ae   Section        0  gif_animation.o(.rodata.frame_15_rle)
+    frame_16_palette                         0x08009176   Data          16  gif_animation.o(.rodata.frame_16_palette)
+    [Anonymous Symbol]                       0x08009176   Section        0  gif_animation.o(.rodata.frame_16_palette)
+    frame_16_rle                             0x08009186   Data        3536  gif_animation.o(.rodata.frame_16_rle)
+    [Anonymous Symbol]                       0x08009186   Section        0  gif_animation.o(.rodata.frame_16_rle)
+    frame_17_palette                         0x08009f56   Data          16  gif_animation.o(.rodata.frame_17_palette)
+    [Anonymous Symbol]                       0x08009f56   Section        0  gif_animation.o(.rodata.frame_17_palette)
+    frame_17_rle                             0x08009f66   Data        3792  gif_animation.o(.rodata.frame_17_rle)
+    [Anonymous Symbol]                       0x08009f66   Section        0  gif_animation.o(.rodata.frame_17_rle)
+    frame_18_palette                         0x0800ae36   Data          16  gif_animation.o(.rodata.frame_18_palette)
+    [Anonymous Symbol]                       0x0800ae36   Section        0  gif_animation.o(.rodata.frame_18_palette)
+    frame_18_rle                             0x0800ae46   Data        3772  gif_animation.o(.rodata.frame_18_rle)
+    [Anonymous Symbol]                       0x0800ae46   Section        0  gif_animation.o(.rodata.frame_18_rle)
+    frame_19_palette                         0x0800bd02   Data          16  gif_animation.o(.rodata.frame_19_palette)
+    [Anonymous Symbol]                       0x0800bd02   Section        0  gif_animation.o(.rodata.frame_19_palette)
+    frame_19_rle                             0x0800bd12   Data        3806  gif_animation.o(.rodata.frame_19_rle)
+    [Anonymous Symbol]                       0x0800bd12   Section        0  gif_animation.o(.rodata.frame_19_rle)
+    frame_1_palette                          0x0800cbf0   Data          16  gif_animation.o(.rodata.frame_1_palette)
+    [Anonymous Symbol]                       0x0800cbf0   Section        0  gif_animation.o(.rodata.frame_1_palette)
+    frame_1_rle                              0x0800cc00   Data        3920  gif_animation.o(.rodata.frame_1_rle)
+    [Anonymous Symbol]                       0x0800cc00   Section        0  gif_animation.o(.rodata.frame_1_rle)
+    frame_20_palette                         0x0800db50   Data          16  gif_animation.o(.rodata.frame_20_palette)
+    [Anonymous Symbol]                       0x0800db50   Section        0  gif_animation.o(.rodata.frame_20_palette)
+    frame_20_rle                             0x0800db60   Data        3724  gif_animation.o(.rodata.frame_20_rle)
+    [Anonymous Symbol]                       0x0800db60   Section        0  gif_animation.o(.rodata.frame_20_rle)
+    frame_21_palette                         0x0800e9ec   Data          16  gif_animation.o(.rodata.frame_21_palette)
+    [Anonymous Symbol]                       0x0800e9ec   Section        0  gif_animation.o(.rodata.frame_21_palette)
+    frame_21_rle                             0x0800e9fc   Data        3714  gif_animation.o(.rodata.frame_21_rle)
+    [Anonymous Symbol]                       0x0800e9fc   Section        0  gif_animation.o(.rodata.frame_21_rle)
+    frame_22_palette                         0x0800f87e   Data          16  gif_animation.o(.rodata.frame_22_palette)
+    [Anonymous Symbol]                       0x0800f87e   Section        0  gif_animation.o(.rodata.frame_22_palette)
+    frame_22_rle                             0x0800f88e   Data        3490  gif_animation.o(.rodata.frame_22_rle)
+    [Anonymous Symbol]                       0x0800f88e   Section        0  gif_animation.o(.rodata.frame_22_rle)
+    frame_23_palette                         0x08010630   Data          16  gif_animation.o(.rodata.frame_23_palette)
+    [Anonymous Symbol]                       0x08010630   Section        0  gif_animation.o(.rodata.frame_23_palette)
+    frame_23_rle                             0x08010640   Data        3508  gif_animation.o(.rodata.frame_23_rle)
+    [Anonymous Symbol]                       0x08010640   Section        0  gif_animation.o(.rodata.frame_23_rle)
+    frame_24_palette                         0x080113f4   Data          16  gif_animation.o(.rodata.frame_24_palette)
+    [Anonymous Symbol]                       0x080113f4   Section        0  gif_animation.o(.rodata.frame_24_palette)
+    frame_24_rle                             0x08011404   Data        3456  gif_animation.o(.rodata.frame_24_rle)
+    [Anonymous Symbol]                       0x08011404   Section        0  gif_animation.o(.rodata.frame_24_rle)
+    frame_25_palette                         0x08012184   Data          16  gif_animation.o(.rodata.frame_25_palette)
+    [Anonymous Symbol]                       0x08012184   Section        0  gif_animation.o(.rodata.frame_25_palette)
+    frame_25_rle                             0x08012194   Data        3578  gif_animation.o(.rodata.frame_25_rle)
+    [Anonymous Symbol]                       0x08012194   Section        0  gif_animation.o(.rodata.frame_25_rle)
+    frame_26_palette                         0x08012f8e   Data          16  gif_animation.o(.rodata.frame_26_palette)
+    [Anonymous Symbol]                       0x08012f8e   Section        0  gif_animation.o(.rodata.frame_26_palette)
+    frame_26_rle                             0x08012f9e   Data        3574  gif_animation.o(.rodata.frame_26_rle)
+    [Anonymous Symbol]                       0x08012f9e   Section        0  gif_animation.o(.rodata.frame_26_rle)
+    frame_27_palette                         0x08013d94   Data          16  gif_animation.o(.rodata.frame_27_palette)
+    [Anonymous Symbol]                       0x08013d94   Section        0  gif_animation.o(.rodata.frame_27_palette)
+    frame_27_rle                             0x08013da4   Data        3816  gif_animation.o(.rodata.frame_27_rle)
+    [Anonymous Symbol]                       0x08013da4   Section        0  gif_animation.o(.rodata.frame_27_rle)
+    frame_28_palette                         0x08014c8c   Data          16  gif_animation.o(.rodata.frame_28_palette)
+    [Anonymous Symbol]                       0x08014c8c   Section        0  gif_animation.o(.rodata.frame_28_palette)
+    frame_28_rle                             0x08014c9c   Data        3830  gif_animation.o(.rodata.frame_28_rle)
+    [Anonymous Symbol]                       0x08014c9c   Section        0  gif_animation.o(.rodata.frame_28_rle)
+    frame_2_palette                          0x08015b92   Data          16  gif_animation.o(.rodata.frame_2_palette)
+    [Anonymous Symbol]                       0x08015b92   Section        0  gif_animation.o(.rodata.frame_2_palette)
+    frame_2_rle                              0x08015ba2   Data        3828  gif_animation.o(.rodata.frame_2_rle)
+    [Anonymous Symbol]                       0x08015ba2   Section        0  gif_animation.o(.rodata.frame_2_rle)
+    frame_3_palette                          0x08016a96   Data          16  gif_animation.o(.rodata.frame_3_palette)
+    [Anonymous Symbol]                       0x08016a96   Section        0  gif_animation.o(.rodata.frame_3_palette)
+    frame_3_rle                              0x08016aa6   Data        3882  gif_animation.o(.rodata.frame_3_rle)
+    [Anonymous Symbol]                       0x08016aa6   Section        0  gif_animation.o(.rodata.frame_3_rle)
+    frame_4_palette                          0x080179d0   Data          16  gif_animation.o(.rodata.frame_4_palette)
+    [Anonymous Symbol]                       0x080179d0   Section        0  gif_animation.o(.rodata.frame_4_palette)
+    frame_4_rle                              0x080179e0   Data        3922  gif_animation.o(.rodata.frame_4_rle)
+    [Anonymous Symbol]                       0x080179e0   Section        0  gif_animation.o(.rodata.frame_4_rle)
+    frame_5_palette                          0x08018932   Data          16  gif_animation.o(.rodata.frame_5_palette)
+    [Anonymous Symbol]                       0x08018932   Section        0  gif_animation.o(.rodata.frame_5_palette)
+    frame_5_rle                              0x08018942   Data        3904  gif_animation.o(.rodata.frame_5_rle)
+    [Anonymous Symbol]                       0x08018942   Section        0  gif_animation.o(.rodata.frame_5_rle)
+    frame_6_palette                          0x08019882   Data          16  gif_animation.o(.rodata.frame_6_palette)
+    [Anonymous Symbol]                       0x08019882   Section        0  gif_animation.o(.rodata.frame_6_palette)
+    frame_6_rle                              0x08019892   Data        3858  gif_animation.o(.rodata.frame_6_rle)
+    [Anonymous Symbol]                       0x08019892   Section        0  gif_animation.o(.rodata.frame_6_rle)
+    frame_7_palette                          0x0801a7a4   Data          16  gif_animation.o(.rodata.frame_7_palette)
+    [Anonymous Symbol]                       0x0801a7a4   Section        0  gif_animation.o(.rodata.frame_7_palette)
+    frame_7_rle                              0x0801a7b4   Data        3626  gif_animation.o(.rodata.frame_7_rle)
+    [Anonymous Symbol]                       0x0801a7b4   Section        0  gif_animation.o(.rodata.frame_7_rle)
+    frame_8_palette                          0x0801b5de   Data          16  gif_animation.o(.rodata.frame_8_palette)
+    [Anonymous Symbol]                       0x0801b5de   Section        0  gif_animation.o(.rodata.frame_8_palette)
+    frame_8_rle                              0x0801b5ee   Data        3768  gif_animation.o(.rodata.frame_8_rle)
+    [Anonymous Symbol]                       0x0801b5ee   Section        0  gif_animation.o(.rodata.frame_8_rle)
+    frame_9_palette                          0x0801c4a6   Data          16  gif_animation.o(.rodata.frame_9_palette)
+    [Anonymous Symbol]                       0x0801c4a6   Section        0  gif_animation.o(.rodata.frame_9_palette)
+    frame_9_rle                              0x0801c4b6   Data        3764  gif_animation.o(.rodata.frame_9_rle)
+    [Anonymous Symbol]                       0x0801c4b6   Section        0  gif_animation.o(.rodata.frame_9_rle)
+    gifFrames                                0x0801d36c   Data         560  gif_animation.o(.rodata.gifFrames)
+    [Anonymous Symbol]                       0x0801d36c   Section        0  gif_animation.o(.rodata.gifFrames)
     BackColor                                0x20000000   Data           2  lcd.o(.data.BackColor)
     [Anonymous Symbol]                       0x20000000   Section        0  lcd.o(.data.BackColor)
     GIF_DrawRLEFrameCentered.rowBuffer       0x20000010   Data         640  gif_animation.o(.bss.GIF_DrawRLEFrameCentered.rowBuffer)
@@ -1306,7 +1306,7 @@ Image Symbol Table
     __scatterload_rt2                        0x08000235   Thumb Code     0  init.o(.text)
     BusFault_Handler                         0x08000265   Thumb Code     2  stm32g4xx_it.o(.text.BusFault_Handler)
     DebugMon_Handler                         0x08000269   Thumb Code     2  stm32g4xx_it.o(.text.DebugMon_Handler)
-    GIF_ShowFrame                            0x0800026d   Thumb Code   718  gif_animation.o(.text.GIF_ShowFrame)
+    GIF_ShowFrame                            0x0800026d   Thumb Code   720  gif_animation.o(.text.GIF_ShowFrame)
     GIF_ShowNextFrame                        0x0800053d   Thumb Code    40  gif_animation.o(.text.GIF_ShowNextFrame)
     HAL_Delay                                0x08000565   Thumb Code    40  stm32g4xx_hal.o(.text.HAL_Delay)
     HAL_GPIO_Init                            0x0800058d   Thumb Code   424  stm32g4xx_hal_gpio.o(.text.HAL_GPIO_Init)
@@ -1346,8 +1346,8 @@ Image Symbol Table
     __scatterload_null                       0x0800387d   Thumb Code     2  handlers.o(i.__scatterload_null)
     __scatterload_zeroinit                   0x0800387f   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
     AHBPrescTable                            0x0800388c   Data          16  system_stm32g4xx.o(.rodata.AHBPrescTable)
-    Region$$Table$$Base                      0x0801ed28   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x0801ed48   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Base                      0x0801d59c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0801d5bc   Number         0  anon$$obj.o(Region$$Table)
     SystemCoreClock                          0x20000004   Data           4  system_stm32g4xx.o(.data.SystemCoreClock)
     uwTickFreq                               0x20000008   Data           4  stm32g4xx_hal.o(.data.uwTickFreq)
     uwTickPrio                               0x2000000c   Data           4  stm32g4xx_hal.o(.data.uwTickPrio)
@@ -1363,9 +1363,9 @@ Memory Map of the image
 
   Image Entry point : 0x080001d9
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0001ed58, Max: 0x00020000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0001d5d0, Max: 0x00020000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x0001ed48, Max: 0x00020000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x0001d5bc, Max: 0x00020000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1386,8 +1386,7 @@ Memory Map of the image
     0x08000266   0x08000266   0x00000002   PAD
     0x08000268   0x08000268   0x00000002   Code   RO           47    .text.DebugMon_Handler  stm32g4xx_it.o
     0x0800026a   0x0800026a   0x00000002   PAD
-    0x0800026c   0x0800026c   0x000002ce   Code   RO          585    .text.GIF_ShowFrame  gif_animation.o
-    0x0800053a   0x0800053a   0x00000002   PAD
+    0x0800026c   0x0800026c   0x000002d0   Code   RO          585    .text.GIF_ShowFrame  gif_animation.o
     0x0800053c   0x0800053c   0x00000028   Code   RO          587    .text.GIF_ShowNextFrame  gif_animation.o
     0x08000564   0x08000564   0x00000028   Code   RO          172    .text.HAL_Delay     stm32g4xx_hal.o
     0x0800058c   0x0800058c   0x000001a8   Code   RO          384    .text.HAL_GPIO_Init  stm32g4xx_hal_gpio.o
@@ -1448,84 +1447,84 @@ Memory Map of the image
     0x0800387c   0x0800387c   0x00000002   Code   RO          755    i.__scatterload_null  mc_w.l(handlers.o)
     0x0800387e   0x0800387e   0x0000000e   Code   RO          756    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x0800388c   0x0800388c   0x00000010   Data   RO          575    .rodata.AHBPrescTable  system_stm32g4xx.o
-    0x0800389c   0x0800389c   0x00000020   Data   RO          611    .rodata.frame_10_palette  gif_animation.o
-    0x080038bc   0x080038bc   0x00000e3c   Data   RO          610    .rodata.frame_10_rle  gif_animation.o
-    0x080046f8   0x080046f8   0x00000020   Data   RO          613    .rodata.frame_11_palette  gif_animation.o
-    0x08004718   0x08004718   0x00000f90   Data   RO          612    .rodata.frame_11_rle  gif_animation.o
-    0x080056a8   0x080056a8   0x00000020   Data   RO          615    .rodata.frame_12_palette  gif_animation.o
-    0x080056c8   0x080056c8   0x00000ee6   Data   RO          614    .rodata.frame_12_rle  gif_animation.o
-    0x080065ae   0x080065ae   0x00000020   Data   RO          617    .rodata.frame_13_palette  gif_animation.o
-    0x080065ce   0x080065ce   0x0000116e   Data   RO          616    .rodata.frame_13_rle  gif_animation.o
-    0x0800773c   0x0800773c   0x00000020   Data   RO          619    .rodata.frame_14_palette  gif_animation.o
-    0x0800775c   0x0800775c   0x00000f82   Data   RO          618    .rodata.frame_14_rle  gif_animation.o
-    0x080086de   0x080086de   0x00000020   Data   RO          621    .rodata.frame_15_palette  gif_animation.o
-    0x080086fe   0x080086fe   0x00000f30   Data   RO          620    .rodata.frame_15_rle  gif_animation.o
-    0x0800962e   0x0800962e   0x00000020   Data   RO          623    .rodata.frame_16_palette  gif_animation.o
-    0x0800964e   0x0800964e   0x00000ef2   Data   RO          622    .rodata.frame_16_rle  gif_animation.o
-    0x0800a540   0x0800a540   0x00000020   Data   RO          625    .rodata.frame_17_palette  gif_animation.o
-    0x0800a560   0x0800a560   0x00000f22   Data   RO          624    .rodata.frame_17_rle  gif_animation.o
-    0x0800b482   0x0800b482   0x00000020   Data   RO          627    .rodata.frame_18_palette  gif_animation.o
-    0x0800b4a2   0x0800b4a2   0x00000f12   Data   RO          626    .rodata.frame_18_rle  gif_animation.o
-    0x0800c3b4   0x0800c3b4   0x00000020   Data   RO          629    .rodata.frame_19_palette  gif_animation.o
-    0x0800c3d4   0x0800c3d4   0x00001058   Data   RO          628    .rodata.frame_19_rle  gif_animation.o
-    0x0800d42c   0x0800d42c   0x00000020   Data   RO          593    .rodata.frame_1_palette  gif_animation.o
-    0x0800d44c   0x0800d44c   0x00000faa   Data   RO          592    .rodata.frame_1_rle  gif_animation.o
-    0x0800e3f6   0x0800e3f6   0x00000020   Data   RO          631    .rodata.frame_20_palette  gif_animation.o
-    0x0800e416   0x0800e416   0x00000eaa   Data   RO          630    .rodata.frame_20_rle  gif_animation.o
-    0x0800f2c0   0x0800f2c0   0x00000020   Data   RO          633    .rodata.frame_21_palette  gif_animation.o
-    0x0800f2e0   0x0800f2e0   0x00000ed8   Data   RO          632    .rodata.frame_21_rle  gif_animation.o
-    0x080101b8   0x080101b8   0x00000020   Data   RO          635    .rodata.frame_22_palette  gif_animation.o
-    0x080101d8   0x080101d8   0x00001054   Data   RO          634    .rodata.frame_22_rle  gif_animation.o
-    0x0801122c   0x0801122c   0x00000020   Data   RO          637    .rodata.frame_23_palette  gif_animation.o
-    0x0801124c   0x0801124c   0x00000f32   Data   RO          636    .rodata.frame_23_rle  gif_animation.o
-    0x0801217e   0x0801217e   0x00000020   Data   RO          639    .rodata.frame_24_palette  gif_animation.o
-    0x0801219e   0x0801219e   0x00000f14   Data   RO          638    .rodata.frame_24_rle  gif_animation.o
-    0x080130b2   0x080130b2   0x00000020   Data   RO          641    .rodata.frame_25_palette  gif_animation.o
-    0x080130d2   0x080130d2   0x00000f5c   Data   RO          640    .rodata.frame_25_rle  gif_animation.o
-    0x0801402e   0x0801402e   0x00000020   Data   RO          643    .rodata.frame_26_palette  gif_animation.o
-    0x0801404e   0x0801404e   0x00000ea0   Data   RO          642    .rodata.frame_26_rle  gif_animation.o
-    0x08014eee   0x08014eee   0x00000020   Data   RO          645    .rodata.frame_27_palette  gif_animation.o
-    0x08014f0e   0x08014f0e   0x00000f12   Data   RO          644    .rodata.frame_27_rle  gif_animation.o
-    0x08015e20   0x08015e20   0x00000020   Data   RO          647    .rodata.frame_28_palette  gif_animation.o
-    0x08015e40   0x08015e40   0x00000f26   Data   RO          646    .rodata.frame_28_rle  gif_animation.o
-    0x08016d66   0x08016d66   0x00000020   Data   RO          595    .rodata.frame_2_palette  gif_animation.o
-    0x08016d86   0x08016d86   0x00000f54   Data   RO          594    .rodata.frame_2_rle  gif_animation.o
-    0x08017cda   0x08017cda   0x00000020   Data   RO          597    .rodata.frame_3_palette  gif_animation.o
-    0x08017cfa   0x08017cfa   0x00000f8e   Data   RO          596    .rodata.frame_3_rle  gif_animation.o
-    0x08018c88   0x08018c88   0x00000020   Data   RO          599    .rodata.frame_4_palette  gif_animation.o
-    0x08018ca8   0x08018ca8   0x000010ee   Data   RO          598    .rodata.frame_4_rle  gif_animation.o
-    0x08019d96   0x08019d96   0x00000020   Data   RO          601    .rodata.frame_5_palette  gif_animation.o
-    0x08019db6   0x08019db6   0x00000f7a   Data   RO          600    .rodata.frame_5_rle  gif_animation.o
-    0x0801ad30   0x0801ad30   0x00000020   Data   RO          603    .rodata.frame_6_palette  gif_animation.o
-    0x0801ad50   0x0801ad50   0x00000f46   Data   RO          602    .rodata.frame_6_rle  gif_animation.o
-    0x0801bc96   0x0801bc96   0x00000020   Data   RO          605    .rodata.frame_7_palette  gif_animation.o
-    0x0801bcb6   0x0801bcb6   0x000010bc   Data   RO          604    .rodata.frame_7_rle  gif_animation.o
-    0x0801cd72   0x0801cd72   0x00000020   Data   RO          607    .rodata.frame_8_palette  gif_animation.o
-    0x0801cd92   0x0801cd92   0x00000ed0   Data   RO          606    .rodata.frame_8_rle  gif_animation.o
-    0x0801dc62   0x0801dc62   0x00000020   Data   RO          609    .rodata.frame_9_palette  gif_animation.o
-    0x0801dc82   0x0801dc82   0x00000ee4   Data   RO          608    .rodata.frame_9_rle  gif_animation.o
-    0x0801eb66   0x0801eb66   0x00000002   PAD
-    0x0801eb68   0x0801eb68   0x000001c0   Data   RO          589    .rodata.gifFrames   gif_animation.o
-    0x0801ed28   0x0801ed28   0x00000020   Data   RO          753    Region$$Table       anon$$obj.o
+    0x0800389c   0x0800389c   0x00000010   Data   RO          611    .rodata.frame_10_palette  gif_animation.o
+    0x080038ac   0x080038ac   0x00000e70   Data   RO          610    .rodata.frame_10_rle  gif_animation.o
+    0x0800471c   0x0800471c   0x00000010   Data   RO          613    .rodata.frame_11_palette  gif_animation.o
+    0x0800472c   0x0800472c   0x00000ea0   Data   RO          612    .rodata.frame_11_rle  gif_animation.o
+    0x080055cc   0x080055cc   0x00000010   Data   RO          615    .rodata.frame_12_palette  gif_animation.o
+    0x080055dc   0x080055dc   0x00000ee8   Data   RO          614    .rodata.frame_12_rle  gif_animation.o
+    0x080064c4   0x080064c4   0x00000010   Data   RO          617    .rodata.frame_13_palette  gif_animation.o
+    0x080064d4   0x080064d4   0x00000f0c   Data   RO          616    .rodata.frame_13_rle  gif_animation.o
+    0x080073e0   0x080073e0   0x00000010   Data   RO          619    .rodata.frame_14_palette  gif_animation.o
+    0x080073f0   0x080073f0   0x00000eae   Data   RO          618    .rodata.frame_14_rle  gif_animation.o
+    0x0800829e   0x0800829e   0x00000010   Data   RO          621    .rodata.frame_15_palette  gif_animation.o
+    0x080082ae   0x080082ae   0x00000ec8   Data   RO          620    .rodata.frame_15_rle  gif_animation.o
+    0x08009176   0x08009176   0x00000010   Data   RO          623    .rodata.frame_16_palette  gif_animation.o
+    0x08009186   0x08009186   0x00000dd0   Data   RO          622    .rodata.frame_16_rle  gif_animation.o
+    0x08009f56   0x08009f56   0x00000010   Data   RO          625    .rodata.frame_17_palette  gif_animation.o
+    0x08009f66   0x08009f66   0x00000ed0   Data   RO          624    .rodata.frame_17_rle  gif_animation.o
+    0x0800ae36   0x0800ae36   0x00000010   Data   RO          627    .rodata.frame_18_palette  gif_animation.o
+    0x0800ae46   0x0800ae46   0x00000ebc   Data   RO          626    .rodata.frame_18_rle  gif_animation.o
+    0x0800bd02   0x0800bd02   0x00000010   Data   RO          629    .rodata.frame_19_palette  gif_animation.o
+    0x0800bd12   0x0800bd12   0x00000ede   Data   RO          628    .rodata.frame_19_rle  gif_animation.o
+    0x0800cbf0   0x0800cbf0   0x00000010   Data   RO          593    .rodata.frame_1_palette  gif_animation.o
+    0x0800cc00   0x0800cc00   0x00000f50   Data   RO          592    .rodata.frame_1_rle  gif_animation.o
+    0x0800db50   0x0800db50   0x00000010   Data   RO          631    .rodata.frame_20_palette  gif_animation.o
+    0x0800db60   0x0800db60   0x00000e8c   Data   RO          630    .rodata.frame_20_rle  gif_animation.o
+    0x0800e9ec   0x0800e9ec   0x00000010   Data   RO          633    .rodata.frame_21_palette  gif_animation.o
+    0x0800e9fc   0x0800e9fc   0x00000e82   Data   RO          632    .rodata.frame_21_rle  gif_animation.o
+    0x0800f87e   0x0800f87e   0x00000010   Data   RO          635    .rodata.frame_22_palette  gif_animation.o
+    0x0800f88e   0x0800f88e   0x00000da2   Data   RO          634    .rodata.frame_22_rle  gif_animation.o
+    0x08010630   0x08010630   0x00000010   Data   RO          637    .rodata.frame_23_palette  gif_animation.o
+    0x08010640   0x08010640   0x00000db4   Data   RO          636    .rodata.frame_23_rle  gif_animation.o
+    0x080113f4   0x080113f4   0x00000010   Data   RO          639    .rodata.frame_24_palette  gif_animation.o
+    0x08011404   0x08011404   0x00000d80   Data   RO          638    .rodata.frame_24_rle  gif_animation.o
+    0x08012184   0x08012184   0x00000010   Data   RO          641    .rodata.frame_25_palette  gif_animation.o
+    0x08012194   0x08012194   0x00000dfa   Data   RO          640    .rodata.frame_25_rle  gif_animation.o
+    0x08012f8e   0x08012f8e   0x00000010   Data   RO          643    .rodata.frame_26_palette  gif_animation.o
+    0x08012f9e   0x08012f9e   0x00000df6   Data   RO          642    .rodata.frame_26_rle  gif_animation.o
+    0x08013d94   0x08013d94   0x00000010   Data   RO          645    .rodata.frame_27_palette  gif_animation.o
+    0x08013da4   0x08013da4   0x00000ee8   Data   RO          644    .rodata.frame_27_rle  gif_animation.o
+    0x08014c8c   0x08014c8c   0x00000010   Data   RO          647    .rodata.frame_28_palette  gif_animation.o
+    0x08014c9c   0x08014c9c   0x00000ef6   Data   RO          646    .rodata.frame_28_rle  gif_animation.o
+    0x08015b92   0x08015b92   0x00000010   Data   RO          595    .rodata.frame_2_palette  gif_animation.o
+    0x08015ba2   0x08015ba2   0x00000ef4   Data   RO          594    .rodata.frame_2_rle  gif_animation.o
+    0x08016a96   0x08016a96   0x00000010   Data   RO          597    .rodata.frame_3_palette  gif_animation.o
+    0x08016aa6   0x08016aa6   0x00000f2a   Data   RO          596    .rodata.frame_3_rle  gif_animation.o
+    0x080179d0   0x080179d0   0x00000010   Data   RO          599    .rodata.frame_4_palette  gif_animation.o
+    0x080179e0   0x080179e0   0x00000f52   Data   RO          598    .rodata.frame_4_rle  gif_animation.o
+    0x08018932   0x08018932   0x00000010   Data   RO          601    .rodata.frame_5_palette  gif_animation.o
+    0x08018942   0x08018942   0x00000f40   Data   RO          600    .rodata.frame_5_rle  gif_animation.o
+    0x08019882   0x08019882   0x00000010   Data   RO          603    .rodata.frame_6_palette  gif_animation.o
+    0x08019892   0x08019892   0x00000f12   Data   RO          602    .rodata.frame_6_rle  gif_animation.o
+    0x0801a7a4   0x0801a7a4   0x00000010   Data   RO          605    .rodata.frame_7_palette  gif_animation.o
+    0x0801a7b4   0x0801a7b4   0x00000e2a   Data   RO          604    .rodata.frame_7_rle  gif_animation.o
+    0x0801b5de   0x0801b5de   0x00000010   Data   RO          607    .rodata.frame_8_palette  gif_animation.o
+    0x0801b5ee   0x0801b5ee   0x00000eb8   Data   RO          606    .rodata.frame_8_rle  gif_animation.o
+    0x0801c4a6   0x0801c4a6   0x00000010   Data   RO          609    .rodata.frame_9_palette  gif_animation.o
+    0x0801c4b6   0x0801c4b6   0x00000eb4   Data   RO          608    .rodata.frame_9_rle  gif_animation.o
+    0x0801d36a   0x0801d36a   0x00000002   PAD
+    0x0801d36c   0x0801d36c   0x00000230   Data   RO          589    .rodata.gifFrames   gif_animation.o
+    0x0801d59c   0x0801d59c   0x00000020   Data   RO          753    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0801ed48, Size: 0x000006a0, Max: 0x00008000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0801d5c0, Size: 0x000006a0, Max: 0x00008000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x0801ed48   0x00000002   Data   RW          723    .data.BackColor     lcd.o
-    0x20000002   0x0801ed4a   0x00000002   PAD
-    0x20000004   0x0801ed4c   0x00000004   Data   RW          574    .data.SystemCoreClock  system_stm32g4xx.o
-    0x20000008   0x0801ed50   0x00000004   Data   RW          223    .data.uwTickFreq    stm32g4xx_hal.o
-    0x2000000c   0x0801ed54   0x00000004   Data   RW          222    .data.uwTickPrio    stm32g4xx_hal.o
+    0x20000000   0x0801d5c0   0x00000002   Data   RW          723    .data.BackColor     lcd.o
+    0x20000002   0x0801d5c2   0x00000002   PAD
+    0x20000004   0x0801d5c4   0x00000004   Data   RW          574    .data.SystemCoreClock  system_stm32g4xx.o
+    0x20000008   0x0801d5c8   0x00000004   Data   RW          223    .data.uwTickFreq    stm32g4xx_hal.o
+    0x2000000c   0x0801d5cc   0x00000004   Data   RW          222    .data.uwTickPrio    stm32g4xx_hal.o
     0x20000010        -       0x00000280   Zero   RW          591    .bss.GIF_DrawRLEFrameCentered.rowBuffer  gif_animation.o
     0x20000290        -       0x00000001   Zero   RW          590    .bss.GIF_ShowNextFrame.frameIndex  gif_animation.o
-    0x20000291   0x0801ed58   0x00000001   PAD
+    0x20000291   0x0801d5d0   0x00000001   PAD
     0x20000292        -       0x00000002   Zero   RW          722    .bss.TextColor      lcd.o
     0x20000294        -       0x00000002   Zero   RW          721    .bss.dummy          lcd.o
-    0x20000296   0x0801ed58   0x00000002   PAD
+    0x20000296   0x0801d5d0   0x00000002   PAD
     0x20000298        -       0x00000004   Zero   RW          224    .bss.uwTick         stm32g4xx_hal.o
-    0x2000029c   0x0801ed58   0x00000004   PAD
+    0x2000029c   0x0801d5d0   0x00000004   PAD
     0x200002a0        -       0x00000400   Zero   RW            1    STACK               startup_stm32g431xx.o
 
 
@@ -1536,7 +1535,7 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       758          0     111754          0        641       6876   gif_animation.o
+       760          0     105726          0        641       6868   gif_animation.o
        184          0          0          0          0       2387   gpio.o
       9568          0          0          2          4      27403   lcd.o
        166          0          0          0          0       2830   main.o
@@ -1551,9 +1550,9 @@ Image component sizes
         26          0         16          4          0       2768   system_stm32g4xx.o
 
     ----------------------------------------------------------------------
-     13870          8     112276         16       1680      89230   Object Totals
+     13870          8     106248         16       1680      89222   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        48          0          2          2          7          0   (incl. Padding)
+        46          0          2          2          7          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -1591,15 +1590,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     14004         26     112276         16       1680      89390   Grand Totals
-     14004         26     112276         16       1680      89390   ELF Image Totals
-     14004         26     112276         16          0          0   ROM Totals
+     14004         26     106248         16       1680      89382   Grand Totals
+     14004         26     106248         16       1680      89382   ELF Image Totals
+     14004         26     106248         16          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)               126280 ( 123.32kB)
+    Total RO  Size (Code + RO Data)               120252 ( 117.43kB)
     Total RW  Size (RW Data + ZI Data)              1696 (   1.66kB)
-    Total ROM Size (Code + RO Data + RW Data)     126296 ( 123.34kB)
+    Total ROM Size (Code + RO Data + RW Data)     120268 ( 117.45kB)
 
 ==============================================================================
 

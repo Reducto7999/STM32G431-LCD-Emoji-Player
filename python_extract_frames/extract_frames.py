@@ -9,8 +9,10 @@ FRAME_DIR = Path(__file__).resolve().parent / "全部GIF图片帧"
 OUTPUT_C = PROJECT_ROOT / "code" / "gif_animation.c"
 OUTPUT_H = PROJECT_ROOT / "code" / "gif_animation.h"
 
-MAX_COLORS = 16
+MAX_COLORS = 8
 DEFAULT_FRAME_DELAY_MS = 50
+DEFAULT_MIRROR_X_FIX = 1
+DEFAULT_MIRROR_Y_FIX = 0
 LCD_WIDTH = 320
 LCD_HEIGHT = 240
 WHITE_RGB565 = 0xFFFF
@@ -30,6 +32,12 @@ def get_resize_filter():
     if hasattr(Image, "Resampling"):
         return Image.Resampling.LANCZOS
     return Image.LANCZOS
+
+
+def get_quantize_method():
+    if hasattr(Image, "Quantize"):
+        return Image.Quantize.MAXCOVERAGE
+    return Image.MAXCOVERAGE
 
 
 def resize_to_lcd_limit(image: Image.Image):
@@ -60,7 +68,7 @@ def quantize_frame(image: Image.Image):
     rgb = image_to_rgb_on_white(image)
     quantized = rgb.quantize(
         colors=MAX_COLORS,
-        method=Image.Quantize.FASTOCTREE,
+        method=get_quantize_method(),
         dither=Image.Dither.NONE,
     )
 
@@ -105,6 +113,20 @@ def encode_rle(indices):
     return encoded
 
 
+def read_header_define(name: str, default: int) -> int:
+    if not OUTPUT_H.exists():
+        return default
+
+    match = re.search(
+        rf"#define\s+{re.escape(name)}\s+(\d+)",
+        OUTPUT_H.read_text(encoding="ascii", errors="ignore"),
+    )
+    if match:
+        return int(match.group(1))
+
+    return default
+
+
 def iter_input_frames():
     image_files = [
         path for path in FRAME_DIR.iterdir()
@@ -128,21 +150,7 @@ def format_c_array(values, indent="  ", per_line=16):
     return ",\n".join(lines)
 
 
-def read_frame_delay_ms() -> int:
-    if not OUTPUT_H.exists():
-        return DEFAULT_FRAME_DELAY_MS
-
-    match = re.search(
-        r"#define\s+GIF_FRAME_DELAY_MS\s+(\d+)",
-        OUTPUT_H.read_text(encoding="ascii", errors="ignore"),
-    )
-    if match:
-        return int(match.group(1))
-
-    return DEFAULT_FRAME_DELAY_MS
-
-
-def write_header(frame_count: int, first_size, frame_delay_ms: int):
+def write_header(frame_count: int, first_size, frame_delay_ms: int, mirror_x_fix: int, mirror_y_fix: int):
     width, height = first_size
     text = f"""#ifndef __GIF_ANIMATION_H
 #define __GIF_ANIMATION_H
@@ -154,6 +162,8 @@ def write_header(frame_count: int, first_size, frame_delay_ms: int):
 #define GIF_FRAME_COUNT   {frame_count}
 #define GIF_MAX_COLORS    {MAX_COLORS}
 #define GIF_FRAME_DELAY_MS {frame_delay_ms}
+#define GIF_MIRROR_X_FIX  {mirror_x_fix}
+#define GIF_MIRROR_Y_FIX  {mirror_y_fix}
 
 void GIF_ShowFrame(u8 frameIndex);
 void GIF_ShowNextFrame(void);
@@ -173,7 +183,7 @@ def write_source(frames):
         "    const u16 *palette;",
         "    u16 width;",
         "    u16 height;",
-        "    u16 runCount;",
+        "    u32 runCount;",
         "    u8 paletteSize;",
         "} GifFrameInfo;",
         "",
@@ -245,10 +255,17 @@ def write_source(frames):
         "",
         "    LCD_SetCursor((u8)lcdRow, lcdColRight);",
         "    LCD_WriteRAM_Prepare();",
+        "#if GIF_MIRROR_X_FIX",
+        "    for(x = 0; x < width; x++)",
+        "    {",
+        "        LCD_WriteRAM(rowData[x]);",
+        "    }",
+        "#else",
         "    for(x = width; x > 0; x--)",
         "    {",
         "        LCD_WriteRAM(rowData[x - 1]);",
         "    }",
+        "#endif",
         "}",
         "",
         "static void GIF_DrawRLEFrameCentered(const GifFrameInfo *frame)",
@@ -261,7 +278,7 @@ def write_source(frames):
         "    u16 lcdRowOffset;",
         "    u16 lcdColLeft;",
         "    u16 lcdColRight;",
-        "    u16 run;",
+        "    u32 run;",
         "    u16 x;",
         "    u16 y;",
         "",
@@ -348,7 +365,11 @@ def write_source(frames):
         "            {",
         "                if((y >= srcYOffset) && (y < (srcYOffset + drawHeight)))",
         "                {",
+        "#if GIF_MIRROR_Y_FIX",
+        "                    GIF_WriteRow(lcdRowOffset + drawHeight - 1 - (y - srcYOffset), lcdColRight, rowBuffer, drawWidth);",
+        "#else",
         "                    GIF_WriteRow(lcdRowOffset + y - srcYOffset, lcdColRight, rowBuffer, drawWidth);",
+        "#endif",
         "                }",
         "                x = 0;",
         "                y++;",
@@ -394,7 +415,9 @@ def main():
     total_rle_bytes = 0
     total_palette_bytes = 0
     resized_frame_count = 0
-    frame_delay_ms = read_frame_delay_ms()
+    frame_delay_ms = read_header_define("GIF_FRAME_DELAY_MS", DEFAULT_FRAME_DELAY_MS)
+    mirror_x_fix = read_header_define("GIF_MIRROR_X_FIX", DEFAULT_MIRROR_X_FIX)
+    mirror_y_fix = read_header_define("GIF_MIRROR_Y_FIX", DEFAULT_MIRROR_Y_FIX)
 
     for name, image in iter_input_frames():
         prepared_image, original_size, size = resize_to_lcd_limit(image)
@@ -416,7 +439,7 @@ def main():
     if not frames:
         raise RuntimeError(f"No supported image files found in {FRAME_DIR}")
 
-    write_header(len(frames), frames[0]["size"], frame_delay_ms)
+    write_header(len(frames), frames[0]["size"], frame_delay_ms, mirror_x_fix, mirror_y_fix)
     write_source(frames)
 
     print(f"Generated {OUTPUT_C}")
@@ -427,6 +450,8 @@ def main():
     print(f"Resized frames: {resized_frame_count}")
     print(f"Max colors per frame: {MAX_COLORS}")
     print(f"Frame delay: {frame_delay_ms} ms")
+    print(f"Mirror X fix: {mirror_x_fix}")
+    print(f"Mirror Y fix: {mirror_y_fix}")
     print(f"RLE data bytes: {total_rle_bytes}")
     print(f"Palette bytes: {total_palette_bytes}")
     print(f"Total image data bytes: {total_rle_bytes + total_palette_bytes}")

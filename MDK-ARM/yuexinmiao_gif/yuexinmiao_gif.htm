@@ -3,7 +3,7 @@
 <title>Static Call Graph - [yuexinmiao_gif\yuexinmiao_gif.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image yuexinmiao_gif\yuexinmiao_gif.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6220000: Last Updated: Fri Jun  5 15:39:43 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6220000: Last Updated: Tue Jun  9 00:07:27 2026
 <BR><P>
 <H3>Maximum Stack Usage =        216 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -391,8 +391,8 @@ Global Symbols
 <P><STRONG><a name="[7]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32g4xx_it.o(.text.DebugMon_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32g431xx.o(RESET)
 </UL>
-<P><STRONG><a name="[59]"></a>GIF_ShowFrame</STRONG> (Thumb, 718 bytes, Stack size 88 bytes, gif_animation.o(.text.GIF_ShowFrame))
-<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = GIF_ShowFrame
+<P><STRONG><a name="[59]"></a>GIF_ShowFrame</STRONG> (Thumb, 720 bytes, Stack size 80 bytes, gif_animation.o(.text.GIF_ShowFrame))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = GIF_ShowFrame
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_WriteRAM
 <LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_WriteRAM_Prepare
@@ -402,7 +402,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[5d]"></a>GIF_ShowNextFrame</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, gif_animation.o(.text.GIF_ShowNextFrame))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = GIF_ShowNextFrame &rArr; GIF_ShowFrame
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = GIF_ShowNextFrame &rArr; GIF_ShowFrame
 </UL>
 <BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GIF_ShowFrame
 </UL>

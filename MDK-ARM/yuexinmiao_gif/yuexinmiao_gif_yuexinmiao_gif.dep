@@ -26,7 +26,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x5E467A40)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x5E467A40)
 I (..\Core\Inc\gpio.h)(0x6A227574)
 I (..\code\lcd.h)(0x6A2270A6)
-I (..\code\gif_animation.h)(0x6A227D3E)
+I (..\code\gif_animation.h)(0x6A26E8BA)
 F (../Core/Src/gpio.c)(0x6A227574)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../code-I./RTE/_yuexinmiao_gif-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32G4xx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o yuexinmiao_gif/gpio.o -MMD)
 I (..\Core\Inc\gpio.h)(0x6A227574)
 I (..\Core\Inc\main.h)(0x6A227574)
@@ -451,10 +451,10 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x5E467A22
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x5E467A40)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x5E467A40)
 F (..\code\fonts.h)(0x64113368)()
-F (..\code\gif_animation.h)(0x6A227D3E)()
+F (..\code\gif_animation.h)(0x6A26E8BA)()
 F (..\code\lcd.h)(0x6A2270A6)()
-F (..\code\gif_animation.c)(0x6A227C64)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../code-I./RTE/_yuexinmiao_gif-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32G4xx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o yuexinmiao_gif/gif_animation.o -MMD)
-I (..\code\gif_animation.h)(0x6A227D3E)
+F (..\code\gif_animation.c)(0x6A26E8BA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../code-I./RTE/_yuexinmiao_gif-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32G4xx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o yuexinmiao_gif/gif_animation.o -MMD)
+I (..\code\gif_animation.h)(0x6A26E8BA)
 I (..\code\lcd.h)(0x6A2270A6)
 I (..\Core\Inc\main.h)(0x6A227574)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x5E467A2A)
